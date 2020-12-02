@@ -1,0 +1,5 @@
+[INFO][2020-12-02 11:24:09,925][signals.py:49]logout failed for: {'username': 'admin', 'password': '********************'}
+[INFO][2020-12-02 11:24:12,273][signals.py:49]logout failed for: {'username': 'admin', 'password': '********************'}
+[INFO][2020-12-02 11:24:13,878][signals.py:49]logout failed for: {'username': 'admin', 'password': '********************'}
+[INFO][2020-12-02 11:24:49,572][signals.py:49]logout failed for: {'username': 'admin', 'password': '********************'}
+[INFO][2020-12-02 11:26:30,113][signals.py:30]login user: admin, remote ip: 127.0.0.1, action: login, status: successed

@@ -95,12 +95,16 @@ WSGI_APPLICATION = 'sandboxMP.wsgi.application'
 # }
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sandboxMP',
         'HOST': '127.0.0.1',
-        'USER': 'ddadmin',
-        'PASSWORD': '1234@abcd.com',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'PORT': '3306'
     }
 }
